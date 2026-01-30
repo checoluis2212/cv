@@ -296,8 +296,8 @@ body {
 }
 
 .main-card {
-  width: min(680px, 96vw);
-  height: min(900px, 94vh);
+  width: min(560px, 90vw);
+  height: min(780px, 90vh);
   border-radius: 24px;
   border: 2px solid var(--electric-border-color);
   margin-top: -4px;
@@ -401,16 +401,16 @@ body {
 .content-top {
   display: flex;
   flex-direction: column;
-  padding: 48px;
-  padding-bottom: 16px;
+  padding: 32px 36px;
+  padding-bottom: 12px;
   flex-shrink: 0;
 }
 
 .content-bottom {
   display: flex;
   flex-direction: column;
-  padding: 48px;
-  padding-top: 16px;
+  padding: 32px 36px;
+  padding-top: 10px;
   flex: 1;
   min-height: 0;
 }
@@ -418,7 +418,7 @@ body {
 .content-bottom.cv-scroll {
   overflow-y: auto;
   overflow-x: hidden;
-  padding-top: 8px;
+  padding-top: 6px;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -478,7 +478,7 @@ body {
 }
 
 .content-top .title {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2;
   margin-top: 0;
   word-wrap: break-word;
@@ -491,7 +491,7 @@ body {
 
 /* Divider */
 .divider {
-  margin-top: 8px;
+  margin-top: 6px;
   margin-bottom: 0;
   border: none;
   height: 1px;
@@ -508,7 +508,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .cv-badge-top {
@@ -525,8 +525,8 @@ body {
 }
 
 .cv-photo {
-  width: 140px;
-  height: 140px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 25%;
@@ -535,16 +535,16 @@ body {
 
 /* CV content styles */
 .cv-subtitle {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.85);
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .cv-contact {
-  font-size: 13px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.7);
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .cv-link {
@@ -560,57 +560,57 @@ body {
 }
 
 .cv-section {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .cv-section-title {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   color: rgba(255, 255, 255, 0.95);
-  margin-bottom: 10px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  border-left: 3px solid rgba(255, 255, 255, 0.25);
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  border-left: 2px solid rgba(255, 255, 255, 0.25);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .cv-text {
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 11px;
+  line-height: 1.45;
   color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 8px;
-}
-
-.cv-job {
-  margin-bottom: 22px;
-}
-
-.cv-company {
-  font-size: 15px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.95);
-  margin-bottom: 3px;
-}
-
-.cv-role {
-  font-size: 14px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 8px;
-}
-
-.cv-job .cv-text {
-  font-size: 14px;
   margin-bottom: 6px;
 }
 
+.cv-job {
+  margin-bottom: 16px;
+}
+
+.cv-company {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 2px;
+}
+
+.cv-role {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 6px;
+}
+
+.cv-job .cv-text {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
 .cv-bullets {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 1.45;
   color: rgba(255, 255, 255, 0.8);
-  margin: 6px 0 10px 18px;
+  margin: 4px 0 6px 16px;
   padding: 0;
 }
 
@@ -619,13 +619,13 @@ body {
 }
 
 .cv-bullets li {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .cv-impact {
-  font-size: 13px;
+  font-size: 11px;
   color: rgba(255, 255, 255, 0.65);
-  margin-top: 8px;
+  margin-top: 6px;
   font-style: italic;
 }
 
