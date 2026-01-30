@@ -1,0 +1,3 @@
+# Bloquear todos los robots de búsqueda
+User-agent: *
+Disallow: /
